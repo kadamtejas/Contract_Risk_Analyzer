@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contract Risk Analyzer</title>
+</head>
+<body>
+  <h2>Contract Risk Analyzer</h2>
+
+  <form id="uploadForm" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" accept="application/pdf" required><br><br>
+
+    <button type="submit" formaction="http://127.0.0.1:8000/analyze">Extract Text</button>
+    <button type="submit" formaction="http://127.0.0.1:8000/analyze_risk">Analyze Contract</button>
+  </form>
+</body>
+</html>

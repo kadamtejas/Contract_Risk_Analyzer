@@ -1,3 +1,8 @@
 .env
 cra\
 data\
+__pycache__/
+*.pyc
+cra/Lib/site-packages/
+*.exe
+.gitignore
